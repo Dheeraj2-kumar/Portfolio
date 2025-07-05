@@ -1,0 +1,137 @@
+.works{
+  margin: 0 auto;
+  min-width: calc(50vh - 4rem);
+  width: 65vw;
+  display: flex;
+  max-width: 60rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* padding: 1 1rem; */
+}
+
+.workstitle{
+  margin: 1rem 1;
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+
+}
+.worksDesc{
+  font-weight: 50;
+  font-style: oblique;
+  font-size: 0.2rem;
+  /* max-width: 4rem; */
+  /* margin-left: 3rem; */
+}
+
+.worksImgs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+}
+.imagelogo{
+  width: 4rem;
+  border-radius: 3rem;
+  margin: 0.5rem;
+  margin-left: 1.8rem;
+  
+  
+}
+.anchor1{
+  margin-top: 3rem;
+}
+.btn a{
+  color: black;
+  text-decoration: none;
+}
+.box{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.web{
+  font-size: large;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  /* color: red; */
+ 
+}
+.worksImg{
+  height: 7rem;
+  width: 18rem;
+  margin: 0.5rem;
+  /* background-color: rgb(22, 22, 43); */
+  /* border: 3px solid red; */
+  background-color: #282727;
+  border-radius: 5rem;
+}
+.workBtn{
+  margin: 2rem 0;
+  padding: 3rem 2.5rem;
+ 
+  border: none;
+  border-radius: 2rem;
+  background: white;
+  font-size: 1rem;
+  color: rgb(8, 7, 7);
+}
+@media screen and (max-width:585px) {
+  .worksImg{
+    height: 50vw;
+  }
+  
+}
+
+
+/* yaha se transition suru */
+
+/* work.css */
+.works {
+  padding: 20px;
+}
+
+.workstitle {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.worksDesc {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.worksImgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.worksImg {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.worksImg:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.workBtn {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.workBtn:hover {
+  background-color: #555;
+  transform: scale(1.05);
+  color: #fff;
+}
